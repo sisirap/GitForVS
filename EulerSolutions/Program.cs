@@ -13,6 +13,7 @@ namespace EulerSolutions
             ProblemHelper helper = new ProblemHelper();
             Console.WriteLine(" The solution to (1)Multiples of 3 and 5 is {0}", helper.QuestionOne(1000));
             Console.WriteLine(" The solution to (1)Multiples of 3 and 5 is {0}", helper.QuestionOneLinq(1000));
+            Console.WriteLine("The solution to (2) Sum of even fibbonaci values is {0}", helper.QuestionTwo(4000000));
         }
     }
 }
